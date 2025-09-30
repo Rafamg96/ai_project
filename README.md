@@ -1,13 +1,25 @@
 # IA Solutions - Landing Page
 
-Landing page de ventas para soluciones de Inteligencia Artificial, construida con React y desplegada en GitHub Pages.
+Landing page de ventas tipo "Money Model" para soluciones de Inteligencia Artificial, construida con React y desplegada en GitHub Pages.
 
 ## 🚀 Características
 
 - **React + Vite**: Desarrollo rápido con Hot Module Replacement
 - **Diseño Responsive**: Adaptado a todos los dispositivos
 - **Desplegado en GitHub Pages**: Actualización automática con cada push a main
-- **Landing Page Moderna**: Diseño profesional para ventas de servicios de IA
+- **Money Model Landing Page**: Enfocada en conversión con promesa clara, prueba social y llamados a la acción efectivos
+
+## 💰 Estructura Money Model
+
+La landing page sigue el modelo de alta conversión con estas secciones:
+
+1. **Header con Promesa Directa**: "Convierte tus datos en dinero con IA aplicada a tu negocio"
+2. **Sección de Autoridad**: Perfil de Rafael Muñoz González con credenciales y experiencia
+3. **El Problema**: Identifica los puntos de dolor del cliente (decisiones lentas, datos sin usar, competencia)
+4. **La Solución**: Proceso claro en 3 pasos (auditoría, implementación, optimización)
+5. **Casos Reales**: Resultados comprobados con métricas específicas (-30% costos, 200h ahorradas, +45% conversión)
+6. **Oferta Irresistible**: Demo gratuita + diagnóstico en 48h + bonus de 30 días de soporte
+7. **CTA Final**: Formulario completo para agendar demo (nombre, email, teléfono, empresa)
 
 ## 🌐 Ver en Vivo
 
@@ -90,4 +102,4 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 ## 👥 Autor
 
-Desarrollado por Rafael Martínez García
+Desarrollado por Rafael Muñoz González - Especialista en IA y Data Science
