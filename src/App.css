@@ -48,13 +48,13 @@
 }
 
 .nav-links a:hover {
-  color: #646cff;
+  color: #1e90ff;
 }
 
 /* Hero Section */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e90ff 0%, #003d82 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +107,7 @@
 
 .btn-primary {
   background: white;
-  color: #667eea;
+  color: #1e90ff;
 }
 
 .btn-primary:hover {
@@ -123,7 +123,7 @@
 
 .btn-secondary:hover {
   background: white;
-  color: #667eea;
+  color: #1e90ff;
 }
 
 /* Container */
@@ -157,7 +157,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e90ff 0%, #003d82 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,9 +194,9 @@
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  color: #667eea;
+  color: #1e90ff;
   font-weight: 600;
-  border: 2px solid #667eea;
+  border: 2px solid #1e90ff;
 }
 
 /* Problem Section */
@@ -280,7 +280,7 @@
 .solution-number {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e90ff 0%, #003d82 100%);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -335,7 +335,7 @@
 .case-metric {
   font-size: 3rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e90ff 0%, #003d82 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -360,14 +360,14 @@
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  color: #667eea;
+  color: #1e90ff;
   font-weight: 600;
 }
 
 /* Offer Section */
 .offer {
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e90ff 0%, #003d82 100%);
   color: white;
   text-align: center;
 }
@@ -464,7 +464,7 @@
 }
 
 .form-input:focus {
-  border-color: #667eea;
+  border-color: #1e90ff;
 }
 
 .form-input::placeholder {
@@ -478,7 +478,7 @@
 }
 
 .cta-form .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e90ff 0%, #003d82 100%);
   color: white;
   border: none;
   cursor: pointer;
@@ -486,7 +486,7 @@
 
 .cta-form .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 10px 25px rgba(30, 144, 255, 0.4);
 }
 
 /* Footer */

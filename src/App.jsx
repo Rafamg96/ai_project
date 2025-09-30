@@ -7,7 +7,7 @@ function App() {
       <section className="hero">
         <nav className="navbar">
           <div className="nav-container">
-            <h2 className="logo">🤖 IA Solutions</h2>
+            <h2 className="logo">🤖 RaMu IA Solutions</h2>
             <div className="nav-links">
               <a href="#inicio">Inicio</a>
               <a href="#servicios">Servicios</a>
@@ -191,7 +191,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2024 IA Solutions - Rafael Muñoz González. Transformamos datos en resultados.</p>
+          <p>&copy; 2024 RaMu IA Solutions - Rafael Muñoz González. Transformamos datos en resultados.</p>
         </div>
       </footer>
     </div>
