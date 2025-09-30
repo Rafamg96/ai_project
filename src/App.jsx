@@ -3,108 +3,187 @@ import './App.css'
 function App() {
   return (
     <div className="app">
-      {/* Hero Section */}
+      {/* Hero Section - Header con Promesa Directa */}
       <section className="hero">
         <nav className="navbar">
           <div className="nav-container">
-            <h2 className="logo">🤖 IA Solutions</h2>
+            <h2 className="logo">🤖 RaMu IA Solutions</h2>
             <div className="nav-links">
-              <a href="#features">Características</a>
-              <a href="#benefits">Beneficios</a>
-              <a href="#cta">Contacto</a>
+              <a href="#inicio">Inicio</a>
+              <a href="#servicios">Servicios</a>
+              <a href="#contacto">Contacto</a>
             </div>
           </div>
         </nav>
         <div className="hero-content">
           <h1 className="hero-title">
-            Transforma tu Negocio con<br />
-            <span className="gradient-text">Inteligencia Artificial</span>
+            Convierte tus datos en dinero con<br />
+            <span className="gradient-text">IA aplicada a tu negocio</span>
           </h1>
           <p className="hero-description">
-            Automatiza procesos, mejora la toma de decisiones y aumenta la productividad 
-            con nuestras soluciones de IA personalizadas para tu empresa
+            Implementamos inteligencia artificial y procesos de data que reducen costos, 
+            aceleran decisiones y multiplican tus ingresos.
           </p>
           <div className="hero-buttons">
-            <a href="#cta" className="btn btn-primary">Comenzar Ahora</a>
-            <a href="#features" className="btn btn-secondary">Ver Características</a>
+            <a href="#contacto" className="btn btn-primary">Agenda tu demo gratuita</a>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section id="features" className="features">
+      {/* Authority Section - Sección de Autoridad */}
+      <section className="authority">
         <div className="container">
-          <h2 className="section-title">Nuestras Soluciones</h2>
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">🧠</div>
-              <h3>Machine Learning</h3>
-              <p>Modelos predictivos que aprenden de tus datos para optimizar decisiones y procesos empresariales</p>
+          <div className="authority-content">
+            <div className="authority-photo">
+              <div className="profile-image">👨‍💼</div>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">💬</div>
-              <h3>Chatbots Inteligentes</h3>
-              <p>Asistentes virtuales 24/7 que mejoran la experiencia del cliente y reducen costos operativos</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">📊</div>
-              <h3>Análisis de Datos</h3>
-              <p>Insights accionables mediante análisis avanzado de datos para impulsar el crecimiento</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">⚡</div>
-              <h3>Automatización</h3>
-              <p>Automatiza tareas repetitivas y libera a tu equipo para enfocarse en lo estratégico</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">🔒</div>
-              <h3>IA Segura</h3>
-              <p>Implementaciones con los más altos estándares de seguridad y privacidad de datos</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">🚀</div>
-              <h3>Escalable</h3>
-              <p>Soluciones que crecen con tu negocio, adaptándose a tus necesidades cambiantes</p>
+            <div className="authority-text">
+              <h2>Rafael Muñoz González</h2>
+              <p className="authority-description">
+                Más de 15 proyectos implementados en empresas de tecnología, retail y servicios. 
+                Especialista en transformar datos en resultados de negocio.
+              </p>
+              <div className="authority-logos">
+                <span className="client-badge">🏢 Fortune 500</span>
+                <span className="client-badge">🎓 Certificado IA</span>
+                <span className="client-badge">📊 Data Expert</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section id="benefits" className="benefits">
+      {/* Problem Section - El Problema */}
+      <section className="problem">
         <div className="container">
-          <h2 className="section-title">¿Por Qué Elegirnos?</h2>
-          <div className="benefits-grid">
-            <div className="benefit-item">
-              <h3>✓ Implementación Rápida</h3>
-              <p>Soluciones listas en semanas, no meses</p>
+          <h2 className="section-title">¿Te suena familiar?</h2>
+          <div className="problem-grid">
+            <div className="problem-card">
+              <div className="problem-icon">⏱️</div>
+              <h3>Decisiones Lentas</h3>
+              <p>Las empresas pierden millones en decisiones que toman semanas cuando podrían tomarse en horas.</p>
             </div>
-            <div className="benefit-item">
-              <h3>✓ Soporte Experto</h3>
-              <p>Equipo dedicado de científicos de datos e ingenieros de IA</p>
+            <div className="problem-card">
+              <div className="problem-icon">📉</div>
+              <h3>Datos Sin Usar</h3>
+              <p>El 80% de los datos empresariales no se utilizan para impulsar el crecimiento del negocio.</p>
             </div>
-            <div className="benefit-item">
-              <h3>✓ ROI Comprobado</h3>
-              <p>Nuestros clientes ven resultados medibles en 3 meses</p>
-            </div>
-            <div className="benefit-item">
-              <h3>✓ Personalización Total</h3>
-              <p>Soluciones adaptadas específicamente a tu industria y necesidades</p>
+            <div className="problem-card">
+              <div className="problem-icon">🏃</div>
+              <h3>Competencia Avanzada</h3>
+              <p>Tus competidores ya están usando IA para optimizar costos y aumentar ingresos.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section id="cta" className="cta">
+      {/* Solution Section - La Solución */}
+      <section id="servicios" className="solution">
         <div className="container">
-          <h2 className="cta-title">¿Listo para Transformar tu Negocio?</h2>
+          <h2 className="section-title">Nuestra Solución = Tu Crecimiento</h2>
+          <p className="solution-intro">
+            Implementamos un proceso integral que convierte tus datos en ventaja competitiva:
+          </p>
+          <div className="solution-grid">
+            <div className="solution-item">
+              <div className="solution-number">01</div>
+              <h3>Auditoría de procesos de datos</h3>
+              <p>Identificamos oportunidades ocultas en tu información actual y procesos que drenan recursos.</p>
+            </div>
+            <div className="solution-item">
+              <div className="solution-number">02</div>
+              <h3>Implementación de modelos de IA</h3>
+              <p>Desarrollamos e integramos soluciones de inteligencia artificial adaptadas específicamente a tu negocio.</p>
+            </div>
+            <div className="solution-item">
+              <div className="solution-number">03</div>
+              <h3>Optimización continua</h3>
+              <p>Ajustamos y mejoramos los sistemas para maximizar tu rentabilidad mes a mes.</p>
+            </div>
+          </div>
+          <div className="solution-cta">
+            <a href="#contacto" className="btn btn-primary">Solicita una consultoría gratis</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Real Cases Section - Casos Reales */}
+      <section className="cases">
+        <div className="container">
+          <h2 className="section-title">Resultados Comprobados</h2>
+          <div className="cases-grid">
+            <div className="case-card">
+              <div className="case-metric">-30%</div>
+              <h3>Reducción de Costos en Logística</h3>
+              <p>
+                Implementamos IA predictiva en una empresa de distribución, optimizando rutas 
+                y tiempos de entrega. Resultado: 30% menos en costos operativos en 6 meses.
+              </p>
+              <div className="case-tag">🚚 Logística & Distribución</div>
+            </div>
+            <div className="case-card">
+              <div className="case-metric">200h</div>
+              <h3>Ahorro Mensual en Reportes</h3>
+              <p>
+                Automatizamos el proceso completo de reportería para una empresa de retail, 
+                liberando a su equipo para enfocarse en análisis estratégico.
+              </p>
+              <div className="case-tag">🛍️ Retail & Comercio</div>
+            </div>
+            <div className="case-card">
+              <div className="case-metric">+45%</div>
+              <h3>Aumento en Conversión de Ventas</h3>
+              <p>
+                Sistema de recomendación inteligente que personaliza ofertas según el comportamiento 
+                del cliente, incrementando significativamente las conversiones.
+              </p>
+              <div className="case-tag">💼 E-commerce</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Irresistible Offer Section - Oferta Irresistible */}
+      <section className="offer">
+        <div className="container">
+          <h2 className="section-title-white">Oferta Especial: Demo + Diagnóstico Gratuito</h2>
+          <p className="offer-description">
+            Agenda tu demo gratuita y recibe un diagnóstico completo de tu sistema de datos en 48h. 
+            <strong> Sin compromiso.</strong>
+          </p>
+          <div className="offer-benefits">
+            <div className="offer-benefit">
+              <span className="offer-icon">✓</span>
+              <span>Análisis de oportunidades de IA en tu negocio</span>
+            </div>
+            <div className="offer-benefit">
+              <span className="offer-icon">✓</span>
+              <span>Roadmap personalizado de implementación</span>
+            </div>
+            <div className="offer-benefit">
+              <span className="offer-icon">✓</span>
+              <span>Estimación de ROI en 90 días</span>
+            </div>
+          </div>
+          <p className="offer-bonus">
+            <strong>BONUS:</strong> Si decides implementar, te damos un plan inicial con 30 días de soporte incluido.
+          </p>
+        </div>
+      </section>
+
+      {/* Final CTA Section - Cierre y CTA Final */}
+      <section id="contacto" className="cta">
+        <div className="container">
+          <h2 className="cta-title">Tus datos ya tienen el poder de escalar tu negocio</h2>
           <p className="cta-description">
-            Agenda una consulta gratuita y descubre cómo la IA puede revolucionar tu empresa
+            Déjanos mostrártelo. Completa el formulario y agenda tu demo gratuita ahora.
           </p>
           <form className="cta-form">
-            <input type="email" placeholder="Tu correo electrónico" className="email-input" />
-            <button type="submit" className="btn btn-primary">Contactar</button>
+            <input type="text" placeholder="Nombre completo" className="form-input" required />
+            <input type="email" placeholder="Email corporativo" className="form-input" required />
+            <input type="tel" placeholder="Teléfono" className="form-input" required />
+            <input type="text" placeholder="Empresa" className="form-input" required />
+            <button type="submit" className="btn btn-primary btn-large">Agendar Demo Gratuita</button>
           </form>
         </div>
       </section>
@@ -112,7 +191,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2024 IA Solutions. Transformando el futuro con inteligencia artificial.</p>
+          <p>&copy; 2024 RaMu IA Solutions - Rafael Muñoz González. Transformamos datos en resultados.</p>
         </div>
       </footer>
     </div>
